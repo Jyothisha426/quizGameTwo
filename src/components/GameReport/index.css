@@ -1,0 +1,40 @@
+.report-container {
+  padding: 20px;
+}
+
+.questions-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.question-item {
+  margin-bottom: 20px;
+}
+
+.question-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.options-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option-item {
+  margin-bottom: 5px;
+}
+
+.option-text {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.option-text.correct {
+  background-color: #d4edda;
+}
+
+.option-text.selected {
+  background-color: #f8d7da;
+}
